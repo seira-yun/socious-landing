@@ -190,15 +190,14 @@ body {
 
 .section-app-links {
   background-color: rgb(38, 105, 160);
-  height: 422px;
   width: 100%;
   color: white;
   text-align: center;
+  padding: 80px 0;
 }
 
 .section-app-links__header {
   font-size: 48px;
-  margin-top: 80px;
 }
 
 .section-app-links__subheader {
@@ -251,12 +250,8 @@ body {
   font-size: 48px !important;
 }
 
-.section-jobs__list {
-  /* width: 70%; */
-}
-
 .section-jobs {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -280,7 +275,7 @@ body {
 .section-jobs__block {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 48px;
 }
 
