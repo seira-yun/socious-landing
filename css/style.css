@@ -27,9 +27,8 @@ body {
 }
 /* END_HEADER */
 
-/* CONTAINER */
-
-.section-intro__container {
+/* column structure for whole app */
+.app__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +45,20 @@ body {
   flex-wrap: wrap-reverse;
 }
 
-.square-1 {
+.section-intro__app-image {
+  background-image: url('../socious-app-image.png');
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 763px;
+  width: 383.13px;
+  /* for squares*/
+  position: relative;
+  z-index: 3;
+}
+
+/* squares behind images */
+.section-intro__app-image-blue-square {
   background-color: rgb(38, 105, 160);
   border-radius: 5px;
   height: 132px;
@@ -57,7 +69,7 @@ body {
   top: -33px;
 }
 
-.square-2 {
+.section-intro__app-image-paleblue-square {
   background-color: rgb(228, 237, 254);
   border-radius: 5px;
   height: 398px;
@@ -68,71 +80,11 @@ body {
   top: 283px;
 }
 
-.square-3 {
-  background-color: rgb(229, 237, 255);
-  border-radius: 5px;
-  height: 226px;
-  width: 321px;
-  position: absolute;
-  z-index: 1;
-  left: -16px;
-  top: 140px;
-  transform: rotate(15deg);
-}
-
-.square-4 {
-  position: absolute;
-  box-sizing: border-box;
-  z-index: 2;
-  height: 102px;
-  width: 234.458px;
-  left: 96.5417px;
-  top: 0px;
-  background-color: rgb(229, 237, 255);
-  border-radius: 5px;
-}
-
-.square-5 {
-  position: absolute;
-  box-sizing: border-box;
-  z-index: 3;
-  height: 53px;
-  width: 151.708px;
-  left: -37px;
-  top: 453px;
-  background-color: rgb(60, 13, 153);
-  border-radius: 5px;
-  transform: rotate(30deg);
-}
-
+/* the main blocks of the intro sections */
 .section-intro__block {
   width: 50%;
   font-family: 'Inter', sans-serif;
   position: relative;
-}
-
-.section-intro__app-image {
-  background-image: url('../socious-app-image.png');
-  background-color: rgba(255, 255, 255, 0);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 763px;
-  width: 383.13px;
-  /* for square 1-2 */
-  position: relative;
-  z-index: 3;
-}
-
-.section-intro__app-image-blue-square {
-  position: absolute;
-  box-sizing: border-box;
-  z-index: 2;
-  height: 132px;
-  width: 145px;
-  left: 23.9165px;
-  top: 47px;
-  background-color: rgb(38, 105, 160);
-  border-radius: 5px;
 }
 
 .section-intro__mailchimp {
@@ -158,6 +110,10 @@ body {
 .section-intro__mailchimp__form {
   margin-top: 23px;
 }
+
+/* END_SECTION_INTRO */
+
+/* SECTION_INTRO_MOBILE */
 
 @media only screen and (max-width: 1015px) {
   .section-intro {
@@ -187,6 +143,10 @@ body {
     left: 141px;
   }
 }
+
+/* END_SECTION_INTRO_MOBILE */
+
+/* SECTION_APP_LINKS */
 
 .section-app-links {
   background-color: rgb(38, 105, 160);
@@ -229,12 +189,19 @@ body {
   margin: 0 auto;
 }
 
+/* Override material icons */
+.md-36 {
+  font-size: 48px !important;
+}
+
+/* END_SECTION_APP_LINKS */
+
+/* SECTION_APP_LINKS_MOBILE */
+
 @media only screen and (max-width: 1015px) {
   .section-app-links__app-links-block {
     flex-direction: column;
     margin-bottom: 20px;
-    /* width: 100%;
-    justify-content: center; */
   }
 
   .section-app-links {
@@ -246,9 +213,9 @@ body {
   }
 }
 
-.md-36 {
-  font-size: 48px !important;
-}
+/* END_SECTION_APP_LINKS_MOBILE */
+
+/* SECTION_JOBS */
 
 .section-jobs {
   width: 80%;
@@ -294,6 +261,18 @@ body {
   position: relative;
 }
 
+.section-jobs__img-paleblue-square {
+  background-color: rgb(229, 237, 255);
+  border-radius: 5px;
+  height: 226px;
+  width: 321px;
+  position: absolute;
+  z-index: 1;
+  left: -16px;
+  top: 140px;
+  transform: rotate(15deg);
+}
+
 .section-jobs__img-entrepreneurs {
   background-image: url('../socious-payment.png');
   height: 489px;
@@ -307,6 +286,31 @@ body {
   z-index: 4;
   /* for z-index to work */
   position: relative;
+}
+
+.section-jobs__img-entrepreneurs-paleblue-square {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 2;
+  height: 102px;
+  width: 234.458px;
+  left: 96.5417px;
+  top: 0px;
+  background-color: rgb(229, 237, 255);
+  border-radius: 5px;
+}
+
+.section-jobs__img-entrepreneurs-purple-square {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 3;
+  height: 53px;
+  width: 151.708px;
+  left: -37px;
+  top: 453px;
+  background-color: rgb(60, 13, 153);
+  border-radius: 5px;
+  transform: rotate(30deg);
 }
 
 .section-jobs__img-container--mobile {
@@ -340,6 +344,10 @@ body {
   margin-right: 10px;
 }
 
+/* END_SECTION_JOBS */
+
+/* MOBILE JOBS SECTION */
+
 @media only screen and (max-width: 1015px) {
   .section-jobs__block {
     flex-direction: column;
@@ -364,7 +372,18 @@ body {
     background-size: cover;
     border-radius: 5px;
     box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
-    margin-top: 30px;
+    margin: 30px auto;
     z-index: 4;
   }
+
+  .section-jobs__img-entrepreneurs-paleblue-square {
+    top: 19px;
+  }
+
+  .section-jobs__img-entrepreneurs-purple-square {
+    left: 5px;
+    top: 450px;
+  }
 }
+
+/* END_MOBILE_JOBS_SECTION */
