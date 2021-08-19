@@ -1,0 +1,215 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+/* HEADER */
+
+.header {
+  height: 70px;
+}
+
+.header__logo-container {
+  margin-top: 18px;
+  height: 52px;
+  left: 20px;
+  width: 39px;
+  position: absolute;
+}
+
+.header__logo-image {
+  height: 52px;
+  width: 39px;
+}
+/* END_HEADER */
+
+/* CONTAINER */
+
+.section-intro__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* INTRO_SECTION */
+
+.section-intro {
+  margin-top: 61px;
+  height: 900px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1015px) {
+  .section-intro {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.section-intro__block {
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+}
+
+.section-intro__app-image {
+  background-image: url('../socious-app-image.png');
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 763px;
+  width: 383.13px;
+}
+
+.section-intro__app-image-blue-square {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 2;
+  height: 132px;
+  width: 145px;
+  left: 23.9165px;
+  top: 47px;
+  background-color: rgb(38, 105, 160);
+  border-radius: 5px;
+}
+
+.section-intro__mailchimp {
+  font-size: 36px;
+}
+
+.section-intro__mailchimp--blue {
+  color: rgb(38, 105, 160);
+}
+
+.section-intro__mailchimp__form-container {
+  margin-top: 37px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(171, 171, 171, 0.25);
+  border-radius: 5px;
+  box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
+  width: 50%;
+  padding: 10px;
+}
+
+.section-intro__mailchimp__form {
+  margin-top: 23px;
+}
+
+.section-app-links {
+  background-color: rgb(38, 105, 160);
+  height: 422px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.section-app-links__header {
+  font-size: 48px;
+  margin-top: 80px;
+}
+
+.section-app-links__subheader {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.section-app-links__app-links-button {
+  background: none rgb(255, 255, 255);
+  border: 1px none rgb(127, 149, 235);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(58, 77, 143);
+  letter-spacing: 2px;
+  line-height: 1;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 10px 75px;
+}
+
+.section-app-links__app-links-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1015px) {
+  .section-app-links__app-links-block {
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* width: 100%;
+    justify-content: center; */
+  }
+
+  .section-app-links {
+    height: 600px;
+  }
+
+  .section-app-links__app-links-button:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.material-icons {
+  font-size: 48px !important;
+}
+
+.section-jobs__list {
+  /* width: 70%; */
+}
+
+.section-jobs {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section-jobs__sup-header {
+  color: rgb(88, 80, 236);
+  font-size: 16px;
+}
+
+.section-jobs__header {
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+/* .section-jobs__list {
+  width: 70%;
+} */
+
+.section-jobs__img-container {
+  width: 30%;
+}
+
+.section-jobs__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+
+.section-jobs__img {
+  background-image: url('../socious-payment.png');
+  height: 489px;
+  width: 263.191px;
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
+  margin-top: 30px;
+}
+
+/* rgb(88, 80, 236) */
