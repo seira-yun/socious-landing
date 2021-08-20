@@ -26,9 +26,21 @@
       sizes="16x16"
       href="./images/favicon/favicon-16x16.png"
     />
+    <link
+      href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="manifest" href="./images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mailchimp-override.css" />
+
     <!-- material icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -36,11 +48,6 @@
     />
 
     <!-- mailchimp -->
-    <link
-      href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css"
-      rel="stylesheet"
-      type="text/css"
-    />
   </head>
 
   <body>
@@ -72,6 +79,7 @@
               #mc_embed_signup {
                 background: #fff;
                 clear: left;
+                font: 14px Helvetica, Arial, sans-serif;
               }
               /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
@@ -88,7 +96,19 @@
               >
                 <div id="mc_embed_signup_scroll">
                   <h2>Get Early Access</h2>
-
+                  <div class="indicates-required">
+                    <span class="asterisk">*</span> indicates required
+                  </div>
+                  <div class="mc-field-group">
+                    <label for="mce-FNAME">Full Name </label>
+                    <input
+                      type="text"
+                      value=""
+                      name="FNAME"
+                      class=""
+                      id="mce-FNAME"
+                    />
+                  </div>
                   <div class="mc-field-group">
                     <label for="mce-EMAIL"
                       >Email Address <span class="asterisk">*</span>
@@ -99,26 +119,6 @@
                       name="EMAIL"
                       class="required email"
                       id="mce-EMAIL"
-                    />
-                  </div>
-                  <div class="mc-field-group">
-                    <label for="mce-FNAME">First Name </label>
-                    <input
-                      type="text"
-                      value=""
-                      name="FNAME"
-                      class=""
-                      id="mce-FNAME"
-                    />
-                  </div>
-                  <div class="mc-field-group">
-                    <label for="mce-LNAME">Last Name </label>
-                    <input
-                      type="text"
-                      value=""
-                      name="LNAME"
-                      class=""
-                      id="mce-LNAME"
                     />
                   </div>
                   <div id="mce-responses" class="clear">
@@ -157,15 +157,26 @@
                 </div>
               </form>
             </div>
+            <script
+              type="text/javascript"
+              src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+            ></script>
+            <script type="text/javascript">
+              (function ($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[1] = 'FNAME';
+                ftypes[1] = 'text';
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+                fnames[3] = 'ADDRESS';
+                ftypes[3] = 'address';
+                fnames[4] = 'PHONE';
+                ftypes[4] = 'phone';
+              })(jQuery);
+              var $mcj = jQuery.noConflict(true);
+            </script>
             <!--End mc_embed_signup-->
-            <!-- <div class="section-intro__mailchimp__form">
-              <div>First Name*</div>
-              <input />
-              <div>Email*</div>
-              <input />
-              <div></div>
-              <button>Submit</button>
-            </div> -->
           </div>
         </div>
       </div>
