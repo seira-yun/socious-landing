@@ -11,14 +11,18 @@ body {
 
 .header {
   height: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
 }
 
-.header__logo-container {
-  margin-top: 18px;
-  height: 52px;
-  left: 20px;
-  width: 39px;
-  position: absolute;
+.header__language-switcher:link,
+.header__language-switcher:visited {
+  text-decoration: inherit;
+  color: rgb(38, 105, 160);
+  cursor: pointer;
 }
 
 .header__logo-image {
@@ -204,10 +208,6 @@ body {
     margin-bottom: 20px;
   }
 
-  .section-app-links {
-    height: 600px;
-  }
-
   .section-app-links__app-links-button:first-child {
     margin-bottom: 20px;
   }
@@ -247,7 +247,7 @@ body {
 }
 
 .section-jobs__img {
-  background-image: url('../images/socious-payment.png');
+  background-image: url('../images/socious-entrepreneurs.png');
   height: 489px;
   width: 263.191px;
   background-color: rgb(255 255 255);
@@ -274,7 +274,7 @@ body {
 }
 
 .section-jobs__img-entrepreneurs {
-  background-image: url('../images/socious-payment.png');
+  background-image: url('../images/socious-company.png');
   height: 489px;
   width: 263.191px;
   background-color: rgb(255 255 255);
