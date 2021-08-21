@@ -131,7 +131,7 @@ body {
   }
 
   .section-intro__block {
-    width: 100%;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -239,9 +239,10 @@ body {
   font-size: 36px;
 }
 
-.section-jobs__img-container {
+.section-jobs__img-container,
+.section-jobs__img-entrepreneurs-container {
   width: 30%;
-  /* for square-1-2-3 */
+  /* for square paleblue */
   position: relative;
 }
 
@@ -319,7 +320,7 @@ body {
   transform: rotate(30deg);
 }
 
-.section-jobs__img-container--mobile {
+.section-jobs__img-entrepreneurs-container--mobile {
   display: none;
 }
 
@@ -359,17 +360,17 @@ body {
     flex-direction: column;
   }
 
-  .section-jobs__img-container {
+  .section-jobs__img-entrepreneurs-container {
     display: none;
   }
 
-  .section-jobs__img-container--mobile {
+  .section-jobs__img-entrepreneurs-container--mobile {
     display: block;
     position: relative;
   }
 
   .section-jobs__img-entrepreneurs--mobile {
-    background-image: url('../images/socious-payment.png');
+    background-image: url('../images/socious-company.png');
     height: 489px;
     width: 263.191px;
     background-color: rgba(255, 255, 255);
@@ -380,6 +381,15 @@ body {
     box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
     margin: 30px auto;
     z-index: 4;
+  }
+
+  .section-jobs__img-container,
+  .section-jobs__img-entrepreneurs-container {
+    width: 100%;
+  }
+
+  .section-jobs__img {
+    margin: 30px auto;
   }
 
   .section-jobs__img-entrepreneurs-paleblue-square {
