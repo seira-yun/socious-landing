@@ -120,6 +120,7 @@ body {
   margin-top: 23px;
 }
 
+
 /* END_SECTION_INTRO */
 
 /* SECTION_INTRO_MOBILE */
@@ -172,8 +173,7 @@ body {
 
 .section-app-links__subheader {
   font-weight: 400;
-  margin-bottom: 40px;
-  margin-top: 20px;
+  margin: 20px 40px 40px;
 }
 
 .section-app-links__app-links-button {
@@ -203,6 +203,12 @@ body {
 /* Override material icons */
 .md-36 {
   font-size: 48px !important;
+}
+
+#mc_embed_signup .button {
+  background: rgb(38, 105, 160) !important;
+  font-family: inter !important;
+  margin-top: 20px;
 }
 
 /* END_SECTION_APP_LINKS */
