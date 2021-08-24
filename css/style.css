@@ -142,6 +142,7 @@ body {
   .section-intro__mailchimp__form-container {
     width: 100%;
     margin-bottom: 100px;
+    padding: 0;
   }
 
   .square-1 {
