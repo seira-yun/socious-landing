@@ -227,6 +227,11 @@ body {
   .section-app-links__app-links-button:first-child {
     margin-bottom: 20px;
   }
+
+  .section-app-links__app-links {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* END_SECTION_APP_LINKS_MOBILE */
