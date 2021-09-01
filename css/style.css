@@ -51,12 +51,12 @@ body {
 }
 
 .section-intro__app-image {
-  background-image: url('../images/socious-app-image.png');
+  background-image: url('../images/socious-company.png');
   background-color: rgba(255, 255, 255, 0);
   background-repeat: no-repeat;
   background-size: cover;
   height: 763px;
-  width: 383.13px;
+  width: 420.13px;
   /* for squares*/
   position: relative;
   z-index: 3;
@@ -269,14 +269,11 @@ body {
 }
 
 .section-jobs__img {
-  background-image: url('../images/socious-entrepreneurs.png');
+  background-image: url('../images/socious-job-seeker.png');
   height: 489px;
   width: 263.191px;
-  background-color: rgb(255 255 255);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
-  box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
   margin-top: 30px;
   z-index: 3;
   /* for z-index to work */
@@ -296,14 +293,11 @@ body {
 }
 
 .section-jobs__img-entrepreneurs {
-  background-image: url('../images/socious-company.png');
+  background-image: url('../images/socious-entrepreneurs.png');
   height: 489px;
   width: 263.191px;
-  background-color: rgb(255 255 255);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
-  box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
   margin-top: 30px;
   z-index: 4;
   /* for z-index to work */
@@ -329,7 +323,7 @@ body {
   height: 53px;
   width: 151.708px;
   left: -37px;
-  top: 453px;
+  top: 400px;
   background-color: rgb(60, 13, 153);
   border-radius: 5px;
   transform: rotate(30deg);
@@ -385,15 +379,12 @@ body {
   }
 
   .section-jobs__img-entrepreneurs--mobile {
-    background-image: url('../images/socious-company.png');
+    background-image: url('../images/socious-entrepreneurs.png');
     height: 489px;
     width: 263.191px;
-    background-color: rgba(255, 255, 255);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 5px;
-    box-shadow: rgb(170 170 170 / 50%) 0px 2px 4px 1px;
     margin: 30px auto;
     z-index: 4;
   }
@@ -413,7 +404,7 @@ body {
 
   .section-jobs__img-entrepreneurs-purple-square {
     left: 5px;
-    top: 450px;
+    top: 400px;
   }
 }
 
