@@ -318,13 +318,13 @@ body {
 
 .section-jobs__img-entrepreneurs-purple-square {
   position: absolute;
-  box-sizing: border-box;
+  box-sizing: border-box;rgb(38, 105, 160);
   z-index: 3;
   height: 53px;
   width: 151.708px;
   left: -37px;
   top: 400px;
-  background-color: rgb(60, 13, 153);
+  background-color: rgb(38, 105, 160);;
   border-radius: 5px;
   transform: rotate(30deg);
 }
