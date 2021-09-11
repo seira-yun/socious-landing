@@ -181,12 +181,12 @@ body {
 
 .section-app-links__app-links-button {
   background: none rgb(255, 255, 255);
-  border: 1px none rgb(127, 149, 235);
+  border: 1px none rgb(38, 105, 160);
   text-align: center;
   font-family: Barlow;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(58, 77, 143);
+  color: rgb(38, 105, 160);
   letter-spacing: 2px;
   line-height: 1;
   border-radius: 3px;
@@ -244,7 +244,7 @@ body {
 }
 
 .section-jobs__sup-header {
-  color: rgb(88, 80, 236);
+  color: rgb(38, 105, 160);
   font-size: 16px;
 }
 
@@ -324,7 +324,7 @@ body {
   width: 151.708px;
   left: -37px;
   top: 400px;
-  background-color: rgb(60, 13, 153);
+  background-color: rgb(38, 105, 160);
   border-radius: 5px;
   transform: rotate(30deg);
 }
@@ -351,7 +351,7 @@ body {
 }
 
 .section-jobs__list-icon {
-  background-color: rgb(104, 117, 245);
+  background-color: rgb(38, 105, 160);
   color: white;
   border-radius: 5px;
   font-size: 24px;
