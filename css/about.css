@@ -1,8 +1,9 @@
 @import url('./style.css');
 
-.hero {
+/* SECTION_HERO */
+
+.hero-section {
   height: calc(100vh - 100px);
-  width: 100vw;
   background-image: linear-gradient(rgba(10,10,10,0.8) 0%, rgba(10,10,10,0.2) 100%), url("../images/hero-img.jpg");
   background-size: cover;
 }
@@ -23,11 +24,45 @@
   border-bottom: 2px solid white;
 }
 
-/* SECTION_HERO_MOBILE*/
+/* SECTION_HERO_END */
+
+/* SECTION_HERO_MOBILE */
+
 @media only screen and (max-width: 1015px) {
   .hero-text h1 {
-  font-weight: 700;
-  font-size: 3rem;
+    font-weight: 700;
+    font-size: 3rem;
+  }
 }
-}
+
 /* SECTION_HERO_MOBILE_END */
+
+/* SECTION_VALUES */
+
+.values-section {
+  min-height: 50vh;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.values-item {
+  width: 100%;
+}
+
+.values-item p {
+  font-weight: 400;
+}
+/* SECTION_VALUES_END */
+
+/* SECTION_VALUES_MOBILE */
+
+@media only screen and (max-width: 1015px) {
+  /* For future use */
+}
+
+/* SECTION_VALUES_MOBILE_END */
