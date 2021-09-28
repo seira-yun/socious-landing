@@ -18,6 +18,11 @@ body {
   padding: 15px;
 }
 
+.header__language-switcher {
+  display: flex;
+  align-items: center;
+}
+
 .header__language-switcher:link,
 .header__language-switcher:visited {
   text-decoration: inherit;
@@ -28,6 +33,11 @@ body {
 .header__logo-image {
   height: 52px;
   width: 39px;
+}
+
+.header__logo-container {
+  display: flex;
+  align-items: center;
 }
 /* END_HEADER */
 

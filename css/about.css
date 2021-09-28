@@ -1,0 +1,33 @@
+@import url('./style.css');
+
+.hero {
+  height: calc(100vh - 100px);
+  width: 100vw;
+  background-image: linear-gradient(rgba(10,10,10,0.8) 0%, rgba(10,10,10,0.2) 100%), url("../images/hero-img.jpg");
+  background-size: cover;
+}
+
+.hero-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+
+  border-bottom: 2px solid white;
+}
+
+/* SECTION_HERO_MOBILE*/
+@media only screen and (max-width: 1015px) {
+  .hero-text h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+}
+/* SECTION_HERO_MOBILE_END */
