@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #FFF;
 }
 
 .hero-text h1 {
@@ -21,7 +21,7 @@
   font-weight: 800;
   font-size: 5rem;
 
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #FFF;
 }
 
 /* SECTION_HERO_END */
@@ -46,7 +46,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
+  max-width: 40%;
   margin: 0 auto;
 }
 
@@ -62,7 +62,83 @@
 /* SECTION_VALUES_MOBILE */
 
 @media only screen and (max-width: 1015px) {
-  /* For future use */
+  .values-item {
+    width: 125%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .values-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .values-item p {
+    font-size: 1rem;
+  }
 }
 
 /* SECTION_VALUES_MOBILE_END */
+
+/* SECTION_INFO */
+
+.info-section {
+  height: max-content;
+  padding: 3rem 0;
+  background-color: #2669A0;
+  color: #FFF;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+}
+
+.content-header {
+  width: 20%;
+  text-align: right;
+  padding-right: 3rem;
+
+  font-size: 3rem;
+}
+
+.content-main {
+  width: 30%;
+  display: flex;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+/* SECTION_INFO_END */
+
+/* SECTION_INFO_MOBILE */
+
+@media only screen and (max-width: 1015px) {
+  .info-section {
+    width: 100%;
+  }
+  
+  .info-content {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .content-header {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+
+    font-size: 2rem;
+  }
+
+  .content-main {
+    width: 100%;
+    text-align: center;
+
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* SECTION_INFO_MOBILE_END */
