@@ -22,7 +22,7 @@
 }
 .title{
   margin-top: 8%;
-  margin-left: 16%;
+  margin-left: 8%;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -37,14 +37,14 @@
   line-height: 30px;
   color: #1F2128;
   margin-top: 52px;
-  margin-left: 16%;
+  margin-left: 8%;
 }
 
 @media only screen and (min-width: 1200px) {
   /* For windows: */
   .title{
     margin-top: 100px;
-    margin-left: 180px;
+    margin-left: 8%;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -59,7 +59,7 @@
     line-height: 30px;
     color: #1F2128;
     margin-top: 52px;
-    margin-left: 180px;
+    margin-left: 8%;
     text-align: left;
   }
 }
@@ -88,7 +88,7 @@
   }
   .title{
     margin-top: 113px;
-    margin-left: 64px;
+    margin-left: 8%;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -104,6 +104,6 @@
     color: #1F2128;
     margin-top: 42px;
     text-align: left;
-    margin-left: 64px;
+    margin-left: 8%;
   }
 }
