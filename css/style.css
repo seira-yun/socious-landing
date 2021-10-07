@@ -240,7 +240,8 @@ body {
 
 .section-jobs {
   width: 80%;
-  margin: 0 auto;
+  margin: 0, auto;
+  margin-left: 16px;
 }
 
 .section-jobs__sup-header {
@@ -266,6 +267,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .section-jobs__img {
