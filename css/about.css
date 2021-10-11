@@ -439,7 +439,7 @@
 }
 
 .team-member {
-  width: 20rem;
+  width: 12rem;
   background-color: #FFF;
   border-radius: 0.5rem;
   margin: 1rem;
@@ -706,3 +706,33 @@
 }
 
 /* SECTION_MODALS_MOBILE_END */
+
+/* SECTION_FOOTER */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+}
+
+.footer-list {
+  line-height: 2rem;
+}
+
+.footer-item ul {
+
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+
+  font-weight: 400;
+}
+
+.footer-item ul > li > a {
+  text-decoration: none;
+}
+
+.footer-item ul > li > a:link,
+.footer-item ul > li > a:visited {
+  color: rgba(10,10,10,0.8);
+}
+/* SECTION_FOOTER_END */
