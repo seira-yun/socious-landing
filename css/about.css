@@ -746,10 +746,43 @@
   width: 100%;
 }
 
+.contact-column a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-column a > i {
+  margin-right: 0.5rem;
+}
+
+.contact-column a:link {
+  color: #2669A0;
+}
+
+.contact-column a:visited {
+  color: #123450;
+}
+
 /* SECTION_CONTACT_END */
 
 /* SECTION_CONTACT_MOBILE */
 
+@media screen and (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-column {
+    width: 80%;
+    padding: 1rem 0;
+  }
+
+  .contact-column h4 {
+    margin: 0;
+  }
+}
 
 /* SECTION_CONTACT_MOBILE_END */
 
