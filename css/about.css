@@ -736,3 +736,16 @@ footer {
   color: rgba(10,10,10,0.8);
 }
 /* SECTION_FOOTER_END */
+
+/* SECTION_FOOTER_MOBILE */
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+}
+
+
+
+/* SECTION_FOOTER_MOBILE_END */
