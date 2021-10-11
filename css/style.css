@@ -1,6 +1,10 @@
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
@@ -449,3 +453,4 @@ body {
 }
 
 /* END_MOBILE_JOBS_SECTION */
+
