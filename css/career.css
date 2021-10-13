@@ -20,6 +20,42 @@
 .career-banner__text h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 6rem;
+  font-size: clamp(2rem, 8vw, 6rem);
   letter-spacing: 1.5px;
+  text-align: center;
 }
+
+/* SECTION_JOBS */
+
+.jobs-section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.jobs-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs-header h2 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  text-align: center;
+}
+
+.jobs-header p {
+  max-width: 50rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+/* SECTION_JOBS_END */
+
+/* SECTION_JOBS_MOBILE */
+
+@media only screen and (max-width: 1100px) {
+  .jobs-header p {
+    width: 100%;
+  }
+}
+/* SECTION_JOBS_MOBILE_END */
