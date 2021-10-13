@@ -39,14 +39,20 @@
 }
 
 .jobs-header h2 {
+  max-width: 60rem;
   font-size: clamp(2rem, 6vw, 3rem);
   text-align: center;
+  margin: 3rem 0;
+  line-height: 4rem;
 }
 
 .jobs-header p {
-  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  max-width: 51rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 /* SECTION_JOBS_END */
