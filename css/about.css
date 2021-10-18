@@ -30,7 +30,7 @@
 .hero-text h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 6rem;
+  font-size: 4rem;
   letter-spacing: 1.5px;
 }
 
@@ -41,10 +41,6 @@
 @media only screen and (max-width: 1350px) {
   .hero-text h5 {
     font-size: 1.8rem;
-  }
-
-  .hero-text h1 {
-    font-size: 4rem;
   }
 }
 
