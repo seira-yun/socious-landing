@@ -13,6 +13,7 @@
     <!-- End Google Tag Manager -->
 
     <script src="https://unpkg.com/phosphor-icons"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <meta
       name="description"
@@ -73,7 +74,11 @@
       <div class="header__logo-container">
         <a href="https://socious.io/"><img class="header__logo-image-transparent" src="./images/socious-logo.png" /></a>
       </div>
-      <a class="header__language-switcher-transparent" href="./ja.html">日本語</a>
+      <div class="nav-links">
+        <div class="nav-item-transparent"><a href="http://socious.io/about">About</a></div>
+        <div class="nav-item-transparent"><a href="http://socious.io/careers">Careers</a></div>
+        <a class="header__language-switcher-transparent" href="./ja">日本語</a>
+      </div>
     </div>
 
     <div class="hero-section" id="our-mission">
@@ -473,4 +478,5 @@
   </body>
 
   <script src="../javascript/teamModal.js"></script>
+  <script src="../javascript/activePageMarker.js"></script>
 </html>

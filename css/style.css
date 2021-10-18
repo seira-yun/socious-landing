@@ -36,6 +36,22 @@ body {
   cursor: pointer;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  text-decoration: none;
+  color: rgb(38, 105, 160);
+  cursor: pointer;
+}
+
 /* For use on pages with transparent nav */
 
 .header-fixed {
@@ -73,6 +89,23 @@ body {
   display: flex;
   align-items: center;
 }
+
+.nav-item-transparent {
+  margin-right: 1rem;
+}
+
+.nav-item-transparent a:link,
+.nav-item-transparent a:visited {
+  text-decoration: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
 /* END_HEADER */
 
 /* column structure for whole app */
