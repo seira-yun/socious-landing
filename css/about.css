@@ -473,7 +473,7 @@
 /* SECTION_VISION */
 
 .vision-section {
-  height: 100vh;
+  height: 100vh, max-content;
   display: flex;
   background-color: #2669A0;
   color: #FFF;
@@ -539,6 +539,7 @@
 
   .content-header {
     width: 100%;
+    height: 20rem;
     text-align: center;
     padding-right: 0;
 
