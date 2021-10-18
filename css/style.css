@@ -269,6 +269,7 @@ body {
   border-radius: 3px;
   box-shadow: none;
   padding: 10px 75px;
+  margin: 0 1rem;
 }
 
 .section-app-links__app-links-block {
