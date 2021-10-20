@@ -63,6 +63,33 @@
 
 /* SECTION_HERO_MOBILE_END */
 
+/* SCROLL_ARROW */
+
+.scroll-arrow {
+  position: fixed;
+  bottom: 1rem;
+  right: 5rem;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.hide {
+  opacity:0;
+}
+
+.show {
+  opacity:1;
+}
+
 /* SECTION_ISSUES */
 
 .issue-section {
