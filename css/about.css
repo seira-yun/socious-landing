@@ -105,11 +105,13 @@
 }
 
 .issue-banner__image {
-  min-height: 50vh;
+  height: 50vh;
   width: 50%;
+  margin-bottom: 2rem;
+
   background-image: linear-gradient(to right, rgba(10,10,10,0.2) 0%, rgba(255, 255, 255, 1) 100%), url("../images/issues-banner.jpg");
   background-size: cover;
-  margin-bottom: 2rem;
+  background-position: 50% 50%;
 }
 
 .issue-banner__content {
@@ -184,11 +186,12 @@
 @media only screen and (max-width: 1170px) {
   .issue-banner {
     flex-direction: column;
+    margin-top: 0;
   }
 
   .issue-banner__image {
     width: 100%;
-    height: 30vh;
+    height: 20vh;
   }
 
   .issue-banner__content {
@@ -409,6 +412,10 @@
     width: 125%;
   }
 
+  .values-banner {
+    margin-top: 0;
+  }
+
   .values-banner h2 {
     font-size: 3rem;
   }
@@ -543,7 +550,7 @@
   align-items: center;
 
   font-weight: 400;
-  font-size: clamp(1.8rem, 3.5vw, 3rem);
+  font-size: clamp(1.3rem, 3.5vw, 3rem);
   line-height: 6rem;
 
   text-shadow: 0 0.2rem 0.2rem rgba(10,10,10,0.3);
@@ -567,12 +574,11 @@
   .vision-content {
     width: 70%;
     margin: 0 auto;
-    padding-top: 4rem;
   }
 
   .content-header {
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     text-align: center;
     padding-right: 0;
 
@@ -582,6 +588,7 @@
   .content-main {
     width: 100%;
     text-align: center;
+    line-height: 4rem;
   }
 }
 
