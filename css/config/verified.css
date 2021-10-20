@@ -1,12 +1,14 @@
 .body{
   padding: 7% 10% 7% 10%;
 }
+
 .header{
   display: flex;
   flex-direction: row;
   color: red;
   align-items: flex-end;
 }
+
 .textHeader{
   margin-left: 20px;
   font-family: 'Inter', sans-serif;
@@ -16,10 +18,12 @@
   text-align: center;
   color: #2768A0;
 }
+
 .icon {
   object-fit: contain;
   width: 94px;
 }
+
 .title{
   margin-top: 8%;
   margin-left: 8%;
@@ -30,6 +34,7 @@
   text-align: left;
   color: #1F2128;
 }
+
 .content{
   font-family: 'Inter', sans-serif;
   font-weight: normal;
