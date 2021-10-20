@@ -472,6 +472,11 @@
   border-radius: 0.5rem;
   margin: 1rem;
   position: relative;
+  transition: 200ms ease-in-out;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
 }
 
 .team-member img {
