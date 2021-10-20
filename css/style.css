@@ -120,7 +120,7 @@ body {
 
 .section-intro {
   margin-top: 61px;
-  width: 100%;
+  max-width: 90rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -203,7 +203,7 @@ body {
 
 @media only screen and (max-width: 1015px) {
   .section-intro {
-    width: 100%;
+    width: 95%;
     justify-content: center;
   }
 
@@ -247,38 +247,40 @@ body {
   margin: auto;
 }
 
+.section-app-links__container {
+  width: max-content;
+  margin: 0 auto;
+}
+
 .section-app-links__header {
   font-size: 48px;
+  width: max-content;
+  margin: 2rem auto;
 }
 
 .section-app-links__subheader {
   font-weight: 400;
-  margin-bottom: 40px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
 }
 
 .section-app-links__app-links-button {
   background: none rgb(255, 255, 255);
   border: 1px none rgb(38, 105, 160);
   text-align: center;
-  font-family: Barlow;
-  font-size: 14px;
-  font-weight: 600;
   color: rgb(38, 105, 160);
-  letter-spacing: 2px;
-  line-height: 1;
   border-radius: 3px;
-  box-shadow: none;
   padding: 10px 75px;
   margin: 0 1rem;
+  cursor: pointer;
 }
 
 .section-app-links__app-links-block {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 40%;
-  min-width: 350px;
   margin: 0 auto;
+  width: max-content;
 }
 
 /* Override material icons */
@@ -296,10 +298,19 @@ body {
 
 /* SECTION_APP_LINKS_MOBILE */
 
-@media only screen and (max-width: 1015px) {
+@media only screen and (max-width: 1025px) {
   .section-app-links__app-links-block {
     flex-direction: column;
     margin-bottom: 20px;
+  }
+
+  .section-app-links__container {
+    width: 100%;
+  }
+
+  .section-app-links__header {
+    width: 100%;
+    font-size: clamp(2rem, 5vw, 3rem);
   }
 
   .section-app-links__app-links-button:first-child {
@@ -329,17 +340,21 @@ body {
 .section-jobs__header {
   font-weight: 800;
   margin-top: 20px;
+  margin-bottom: 2rem;
   font-size: 36px;
 }
 
 .section-jobs__img-container,
 .section-jobs__img-entrepreneurs-container {
-  width: 30%;
+  width: max-content;
+  margin: 0 auto;
   /* for square paleblue */
   position: relative;
 }
 
 .section-jobs__block {
+  max-width: 90rem;
+  margin: 48px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -365,7 +380,7 @@ body {
   height: 226px;
   width: 321px;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   left: -16px;
   top: 140px;
   transform: rotate(15deg);
@@ -378,6 +393,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 30px;
+  margin-right: 1rem;
   z-index: 4;
   /* for z-index to work */
   position: relative;
@@ -386,7 +402,7 @@ body {
 .section-jobs__img-entrepreneurs-paleblue-square {
   position: absolute;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: -1;
   height: 102px;
   width: 234.458px;
   left: 96.5417px;
@@ -421,12 +437,14 @@ body {
 .section-jobs__list-item-title {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 8px;
 }
 
 .section-jobs__list-item-subtitle {
   font-size: 16px;
   color: rgb(107, 114, 128);
   font-weight: 400;
+  max-width: 45rem;
 }
 
 .section-jobs__list-icon {
@@ -443,9 +461,19 @@ body {
 
 /* MOBILE JOBS SECTION */
 
+@media only screen and (max-width: 1230px) {
+  .section-jobs__header {
+    max-width: 40rem;
+  }
+}
+
 @media only screen and (max-width: 1015px) {
   .section-jobs__block {
     flex-direction: column;
+  }
+
+  .section-jobs__list {
+    width: 100%;
   }
 
   .section-jobs__img-entrepreneurs-container {
@@ -470,7 +498,8 @@ body {
 
   .section-jobs__img-container,
   .section-jobs__img-entrepreneurs-container {
-    width: 100%;
+    width: max-content;
+    margin: 0 auto;
   }
 
   .section-jobs__img {
