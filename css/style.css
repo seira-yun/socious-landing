@@ -273,6 +273,7 @@ body {
   border-radius: 3px;
   padding: 10px 75px;
   margin: 0 1rem;
+  cursor: pointer;
 }
 
 .section-app-links__app-links-block {
@@ -297,10 +298,19 @@ body {
 
 /* SECTION_APP_LINKS_MOBILE */
 
-@media only screen and (max-width: 1015px) {
+@media only screen and (max-width: 1025px) {
   .section-app-links__app-links-block {
     flex-direction: column;
     margin-bottom: 20px;
+  }
+
+  .section-app-links__container {
+    width: 100%;
+  }
+
+  .section-app-links__header {
+    width: 100%;
+    font-size: clamp(2rem, 5vw, 3rem);
   }
 
   .section-app-links__app-links-button:first-child {
