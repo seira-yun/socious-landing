@@ -1,8 +1,6 @@
 /* Config Stylesheets */
-@import './config/adminlte.min.css';
 @import './config/mailchimp-override.css';
 @import './config/normalize.css';
-@import './config/verified.css';
 
 /* Shared Components */
 @import './shared/navbar.css';

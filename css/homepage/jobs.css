@@ -36,7 +36,7 @@
 }
 
 .section-jobs__img {
-  background-image: url('../images/socious-job-seeker.png');
+  background-image: url('../../images/socious-job-seeker.png');
   height: 489px;
   width: 263.191px;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 }
 
 .section-jobs__img-entrepreneurs {
-  background-image: url('../images/socious-entrepreneurs.png');
+  background-image: url('../../images/socious-entrepreneurs.png');
   height: 489px;
   width: 263.191px;
   background-repeat: no-repeat;
@@ -156,10 +156,12 @@
   .section-jobs__img-entrepreneurs-container--mobile {
     display: block;
     position: relative;
+    width: max-content;
+    margin: 0 auto;
   }
 
   .section-jobs__img-entrepreneurs--mobile {
-    background-image: url('../images/socious-entrepreneurs.png');
+    background-image: url('../../images/socious-entrepreneurs.png');
     height: 489px;
     width: 263.191px;
     position: relative;
