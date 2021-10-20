@@ -543,7 +543,7 @@
   align-items: center;
 
   font-weight: 400;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
   line-height: 6rem;
 
   text-shadow: 0 0.2rem 0.2rem rgba(10,10,10,0.3);
@@ -556,6 +556,7 @@
   .vision-section {
     width: 100%;
     flex-direction: column;
+    height: max-content;
   }
 
   .vision-image {
@@ -580,6 +581,7 @@
 
   .content-main {
     width: 100%;
+    text-align: center;
   }
 }
 
