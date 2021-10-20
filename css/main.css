@@ -1,0 +1,6 @@
+/* Shared components */
+@import './shared/navbar.css';
+@import './shared/footer.css';
+
+/* Page Indexes */
+@import './homepage/index.css'

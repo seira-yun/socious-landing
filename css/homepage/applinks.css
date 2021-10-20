@@ -1,0 +1,91 @@
+/* SECTION_APP_LINKS */
+
+.section-app-links {
+  background-color: rgb(38, 105, 160);
+  width: 100%;
+  color: white;
+  padding: 80px 0;
+}
+
+.section-app-links__wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.section-app-links__container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.section-app-links__header {
+  font-size: 48px;
+  width: max-content;
+  margin: 2rem auto;
+}
+
+.section-app-links__subheader {
+  font-weight: 400;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+
+.section-app-links__app-links-button {
+  background: none rgb(255, 255, 255);
+  border: 1px none rgb(38, 105, 160);
+  text-align: center;
+  color: rgb(38, 105, 160);
+  border-radius: 3px;
+  padding: 10px 75px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.section-app-links__app-links-block {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: max-content;
+}
+
+/* Override material icons */
+.md-36 {
+  font-size: 48px !important;
+}
+
+#mc_embed_signup .button {
+  background: rgb(38, 105, 160) !important;
+  font-family: inter !important;
+  margin-top: 20px;
+}
+
+/* END_SECTION_APP_LINKS */
+
+/* SECTION_APP_LINKS_MOBILE */
+
+@media only screen and (max-width: 1025px) {
+  .section-app-links__app-links-block {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .section-app-links__container {
+    width: 100%;
+  }
+
+  .section-app-links__header {
+    width: 100%;
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+
+  .section-app-links__app-links-button:first-child {
+    margin-bottom: 20px;
+  }
+
+  .section-app-links__app-links {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* END_SECTION_APP_LINKS_MOBILE */

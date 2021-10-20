@@ -1,0 +1,96 @@
+/* HEADER */
+
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__language-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.header__language-switcher:link,
+.header__language-switcher:visited {
+  text-decoration: inherit;
+  color: rgb(38, 105, 160);
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  text-decoration: none;
+  color: rgb(38, 105, 160);
+  cursor: pointer;
+}
+
+/* For use on pages with transparent nav */
+
+.header-fixed {
+  width: 100vw;
+  position: absolute;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.header__language-switcher-transparent {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.header__language-switcher-transparent:link,
+.header__language-switcher-transparent:visited {
+  text-decoration: inherit;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.header__logo-image-transparent {
+  margin-left: 2rem;
+  height: 52px;
+  width: 39px;
+}
+
+.header__logo-image {
+  height: 52px;
+  width: 39px;
+}
+
+.header__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-transparent {
+  margin-right: 1rem;
+}
+
+.nav-item-transparent a:link,
+.nav-item-transparent a:visited {
+  text-decoration: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+/* END_HEADER */

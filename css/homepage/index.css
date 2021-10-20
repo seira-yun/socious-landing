@@ -1,0 +1,12 @@
+/* Component imports */
+@import './intro.css';
+@import './applinks.css';
+@import './jobs.css';
+
+/* column structure for whole app */
+.app__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
