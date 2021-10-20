@@ -3,4 +3,6 @@
 @import './shared/footer.css';
 
 /* Page Indexes */
-@import './homepage/index.css'
+@import './homepage/index.css';
+@import './about/index.css';
+@import './career/index.css';

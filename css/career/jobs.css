@@ -1,0 +1,40 @@
+/* SECTION_JOBS */
+
+.jobs-section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.jobs-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs-header h2 {
+  max-width: 60rem;
+  font-size: clamp(2rem, 6vw, 3rem);
+  text-align: center;
+  margin: 3rem 0;
+  line-height: 4rem;
+}
+
+.jobs-header p {
+  display: flex;
+  justify-content: center;
+  max-width: 51rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+/* SECTION_JOBS_END */
+
+/* SECTION_JOBS_MOBILE */
+
+@media only screen and (max-width: 1100px) {
+  .jobs-header p {
+    width: 100%;
+  }
+}
+/* SECTION_JOBS_MOBILE_END */
