@@ -95,13 +95,13 @@
 .issue-section {
   height: max-content;
   width: 100%;
-
 }
 
 .issue-banner {
   height: 100%;
   width: 100%;
   display: flex;
+  margin-top: 2rem;
 }
 
 .issue-banner__image {
@@ -355,6 +355,7 @@
 .values-banner {
   height: 70vh;
   width: 100%;
+  margin-top: 2rem;
 
   display: flex;
   flex-direction: column;
